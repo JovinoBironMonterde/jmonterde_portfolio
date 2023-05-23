@@ -1,0 +1,41 @@
+.ProjectSection{
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    
+}
+.project-con{
+    position: relative;
+    overflow: hidden;
+    transition: transform .2s;
+    border-radius: 4px;
+    box-shadow: 	0px 0px 11px 1px rgba(0,0,0,0.14);
+    border-radius:	4px;
+}
+
+.project-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: -100%;
+
+}
+.project-con:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    z-index: 999999999;
+    box-shadow: 	0px 0px 11px 1px rgba(0,0,0,0.14),
+		0px 0px 19px 14px rgba(0,0,0,0.03),
+		0px 0px 26px 4px rgba(0,0,0,0.14);
+/* border:	1px solid rgba(0,0,0,0); */
+
+  }
+.project-con:hover .project-text{
+    bottom: 0;
+    left: 0;
+    transition: all .5s;
+    background-color: rgba(0, 0, 0, 0.384);
+    font-size: 12px;  
+}

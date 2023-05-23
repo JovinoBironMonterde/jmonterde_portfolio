@@ -1,0 +1,83 @@
+.professionSection{
+    width: 100%;
+    height: 100vh;
+}
+.skillcontainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.skillcontainer::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 90%;
+    left: 50%;
+   margin: auto;
+    background-color: rgb(40, 56, 70);
+    z-index: 999999;
+}
+ .bars{
+    position: relative;
+    height: 8px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.percent{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height:8px;
+    background-color: rgb(6, 109, 109);
+    text-align: left;
+       border-radius: 5px;
+}
+ 
+.percent span{
+    position: absolute;
+    margin-top: -23px;
+    left: 0;
+}
+/*.experience{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.experience-container{
+    width: 100%;
+    text-align: left;
+    padding: 25px;
+    padding-left: 40px;
+    padding-right: 125px;
+}
+
+.expCon{
+     margin: 40px 0;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 90%;
+}
+.tailwind{
+    width: 70%;
+}
+.bootstrap{
+    width: 80%;
+}
+.javascript{
+    width: 75%;
+}
+.reactjs{
+    width: 50%;
+}
+.vb{
+    width: 80%;
+}
+.wordpress{
+    width: 75%;
+} */
