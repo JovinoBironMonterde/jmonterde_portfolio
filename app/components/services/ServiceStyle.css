@@ -2,19 +2,32 @@
     width: 100%;
     height: auto;
     padding: 150px 0;
+    background-color: rgba(128, 128, 128, 0.432);
 }
 .Service{
+    position: relative;
     width: 300px;
     height: 200px;
     background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .service-con {
     width: 100%;
 }
-.rounded-full{
+.cstm-service{
+    position: absolute;
     width: 60px;
     height: 60px;
     background-color: aqua;
     text-align: center;
-    
+    top: -25px;
+    left: 40%;
+    transition: all .3s;
+    /* border: 2px solid gray; */
+    /* border-bottom: 10px solid gray; */
 }
+/* .Service:hover .cstm-service{
+   left: 80%;
+} */

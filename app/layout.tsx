@@ -6,6 +6,7 @@ import About from './components/about/About'
 import Profession from './components/skills/Profession'
 import Project from './components/project/Project'
 import Service from './components/services/Service'
+import Contact from './components/contact/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Profession />
         <Project />
         <Service />
+        <Contact />
         {/* {children} */}
         </body>
     </html>

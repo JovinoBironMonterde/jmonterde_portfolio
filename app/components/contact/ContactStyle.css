@@ -1,0 +1,7 @@
+.ContactSection{
+    width: 100%;
+    height: auto;
+}
+.form input{
+    border: 1px solid gray;
+}
